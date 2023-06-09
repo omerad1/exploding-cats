@@ -1,0 +1,35 @@
+body{
+background-color: #240100;
+background-image: url("https://img.freepik.com/premium-photo/cat-bomb-are-cover-poster-that-says-cat-explosion_729592-942.jpg") ;
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+background-size: cover;
+background-position: center center;
+background-attachment: fixed;
+  }
+  .Game {
+    text-align: center;
+  }
+  .Game h1 {
+    background-color: #282c34;
+    background-color: #00226d;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(140, 108, 108);
+  }
+  
+  .aligned{
+    display: flex;
+    margin: 40px auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .heading{
+    text-align: center;
+    color: rgb(151, 101, 101);
+    font-size:35px;
+    text-shadow:2px 1px rgb(46, 52, 52);
+  }
